@@ -46,6 +46,8 @@ public class LoginPage extends BasePage {
 	
 	@Step("user login with username : {0} and password : {1}")
 	public HomePage doLogin(String un, String pwd) {
+		
+		System.out.println("Login to app.....");
 //		driver.findElement(emailId).sendKeys(un);
 //		driver.findElement(password).sendKeys(pwd);
 //		driver.findElement(loginButton).click();
